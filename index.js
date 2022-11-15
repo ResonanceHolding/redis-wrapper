@@ -1,3 +1,6 @@
-const Redis = require('./lib/redis');
+const { Redis, RedisPubSub } = require('./lib/redis');
 
-module.exports = Redis;
+module.exports = {
+  Redis,
+  RedisPubSub,
+};
