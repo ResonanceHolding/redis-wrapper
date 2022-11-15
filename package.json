@@ -20,6 +20,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
-    "logger": "github:ResonanceHolding/logger"
+    "logger": "github:ResonanceHolding/logger",
+    "redis": "^4.5.0"
   }
 }
